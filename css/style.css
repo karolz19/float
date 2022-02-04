@@ -7,7 +7,7 @@ nav {
     border-bottom: 1px solid green;
     background-color: green;
 }
-section {
+/*section {
     float:left ;
     width: 800px;
     margin: 10px;
@@ -15,11 +15,11 @@ section {
     border-top: 1px solid red;
     border-bottom: 1px solid red;
     background-color: red;
-    position: center;
+    
 
-}
+}*/
 aside {
-    float: right;
+    float: left;
     width: 275px;
     margin: 0px 0px 0px 0px;
     padding: 10px;
@@ -29,10 +29,20 @@ aside {
     
 }
 footer {
-    background-color: chocolate;
+    background-color: yellow;
     color: black;
-    position: absolute;
+    overflow: auto;
     bottom: 0;
-    width: 100%;
+    width: 1500px;
     height: 50px;
+}
+
+.diw { 
+    float:left ;
+    width: 800px;
+    margin: 10px;
+    padding: 10px;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    background-color: red;
 }
